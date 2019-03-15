@@ -3,7 +3,7 @@
 Test case title : On Sale items
 
 Precondition : 
-1. User has successfully logged in and is at https://shop.shipt.com/ homepage.
+1. User has logged in and navigates to https://shop.shipt.com/ homepage.
 2. Home address is saved and preferred store is already selected
 3. Cart is empty
 (Think as a returning user)
