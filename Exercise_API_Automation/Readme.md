@@ -1,4 +1,4 @@
-API Automation - How to run it?
+API Automation - How to run it? If required other credentials can be added to ```@pytest.mark.parametrize```
 "pytest -v"
 
 Apoorvs-MacBook-Pro:Exercise_API_Automation apoorvkhare$ pytest -v -s
