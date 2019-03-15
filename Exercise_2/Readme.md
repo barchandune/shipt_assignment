@@ -16,7 +16,7 @@ a. Title : item count does not match search result count
 b. Screenshots : See "Search_Results_item_count_wrong_1" and others.
 
 c. Why and How needs to be corrected - 
-	i. Why - user thinks there are 164 items to select from but there are more options.
+	i.  Why - user thinks there are 164 items to select from but there are more items.
 	ii. How - I checked response of "https://api.shipt.com/search/v2/search/?bucket_number=19&white_label_key=shipt" and looks like problem is in backend (no problem with the front end) as item count recevied in response matches with what is displayed to the user on front end.
 
 	"hierarchical_categories.level_1":{
@@ -59,4 +59,4 @@ d. Steps to report the issue : Since severity of this issue is P2 so I would put
 
 e. Priority : P2
 
-f. Reproducibility rate : 100% for some items example if you select "Deli" but at the same time does not happen when you select others like "Deli counter"
+f. Reproducibility rate : 100% for some items example if you select "Deli" but at the same time does not happen when you select other items like "Deli counter".
